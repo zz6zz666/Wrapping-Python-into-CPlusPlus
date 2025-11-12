@@ -17,8 +17,6 @@ target_include_directories(compare PRIVATE
     "D:/python-envs/Python-3.13.3/include"
 )
 
-# link_directories("D:/python-envs/Python-3.13.3/libs")
-
 # 链接库：注意 OpenMP 要在这里加！
 target_link_libraries(compare
     "D:/python-envs/Python-3.13.3/libs/python313.lib"
