@@ -100,8 +100,9 @@ target_link_libraries(compare
     "D:/python-envs/Python-3.XX.X/libs/python3XX.lib"
     ```
 )
+```
 
-> **重要提示**：
+**重要提示**：
 > - 确保使用的Python开发库版本与嵌入式Python版本完全匹配
 > - 根据您的实际安装路径修改上述配置中的路径
 > - 如果您不使用Eigen库，可以移除相应的包含目录
